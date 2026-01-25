@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+
+# Build output
+dist/
+
+# Wallet and key files - NEVER commit private keys!
+*wallet.json
+*-keypair.json
+*keypair.json
+id.json
+*.pem
+*.json.bak
+
+# Wallet folders (extra protection)
+ts/cluster1/wallet/*.json
+!ts/cluster1/wallet/.gitignore
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# OS files
+.DS_Store

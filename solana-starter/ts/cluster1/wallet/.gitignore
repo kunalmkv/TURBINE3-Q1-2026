@@ -1,0 +1,3 @@
+# Ignore all wallet JSON files - NEVER commit private keys!
+*.json
+!.gitignore

@@ -1,0 +1,9 @@
+*wallet.json
+*.json.bak
+node_modules
+yarn.lock
+dist/
+
+# Wallet folders
+cluster1/wallet/*.json
+!cluster1/wallet/.gitignore
